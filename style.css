@@ -1,0 +1,60 @@
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-image: url("blackjackpic.jpg");
+     background-size: cover;
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     padding: 30px;
+     border: 1px ;
+     margin-top: 60px;
+     transition: transform.8s;
+}
+
+h1{
+    color: #ff4d6d;
+}
+
+#message-el{
+    font-style: oblique;
+}
+
+button{
+    background-color: #ff4d6d;
+    color: white;
+    width: 150px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 2px 4px;
+    transition: transform.5s;
+    cursor: pointer;
+}
+
+body:hover{
+    transform: scale(1.1);
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+ul{
+    border: 2px solid white;
+    padding: 15px;
+    padding-bottom: 25px;
+    opacity: 0.8;
+    background-color: black;
+    color: #ff4d6d;
+    border-radius: 20px;
+    max-width: 60%;
+    margin: 50px auto;
+}
+
+li{
+    list-style: none;
+    font-weight: lighter;
+    margin-top: 15px;
+}

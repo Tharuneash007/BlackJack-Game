@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BlackJack</h1>
+    <p id="message-el">Want to play a round?</p>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button onclick="startgame()">START GAME</button>
+    <button onclick="newcard()">NEW CARD</button>
+    <p id="player-el"></p>
+    <div>
+        <ul>
+            <li>Your goal is to draw cards that totals 21</li>
+            <li>If your total is 21, You've got Blackjack!</li>
+            <li>If total exceeds 21, you're out of game</li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
